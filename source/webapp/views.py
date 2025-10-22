@@ -27,6 +27,9 @@ def task3_view(request):
 def task2_view(request):
     return render(request, 'task2.html')
 
+def task6_view(request):
+    return render(request, 'task6.html')
+
 
 def article_create_view(request):
     if request.method == "GET":
