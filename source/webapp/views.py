@@ -21,6 +21,10 @@ def task1_view(request):
     return render(request, 'task1.html')
 
 
+def task2_view(request):
+    return render(request, 'task2.html')
+
+
 def article_create_view(request):
     if request.method == "GET":
         return render(request, 'article_create.html')
