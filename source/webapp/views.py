@@ -17,6 +17,9 @@ def index_view(request):
 def about_view(request):
     return render(request, 'about.html')
 
+def task1_view(request):
+    return render(request, 'task1.html')
+
 
 def article_create_view(request):
     if request.method == "GET":
