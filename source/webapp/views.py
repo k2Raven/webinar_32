@@ -33,6 +33,9 @@ def task5_view(request):
 def task6_view(request):
     return render(request, 'task6.html')
 
+def info_view(request):
+    return render(request, 'info.html')
+
 
 
 def article_create_view(request):
